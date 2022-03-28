@@ -48,11 +48,31 @@ export const SkillWrapper = styled.div`
 export const SkillImageContainer = styled.div`
   display: flex;
   align-items: center;
-  position: relative;
   margin: 1rem;
+  overflow: visible !important;
 
   @media screen and (max-width: 768px) {
     margin: 0.80rem;
+  }
+
+  img {
+    width: ${({ width }) => width};
+    height: ${({ height }) => height};
+    object-fit: cover;
+
+    @media screen and (max-width: 768px) {
+      width: 7rem;
+      height: 7rem;
+      width: ${({ isApi }) => isApi && `calc(7rem * 3.6)`};
+      height: ${({ isBackend }) => isBackend && `calc(7rem - 0.2rem)`};
+    }
+
+    @media screen and (max-width: 480px) {
+      width: 5rem;
+      height: 5rem;
+      width: ${({ isApi }) => isApi && `calc(5rem * 3.6)`};
+      height: ${({ isBackend }) => isBackend && `calc(7rem - 0.2rem)`};
+    }
   }
 `;
 
@@ -64,13 +84,11 @@ export const Image = styled.img`
   @media screen and (max-width: 768px) {
     width: 7rem;
     height: 7rem;
-    object-fit:fill ;
   }
 
   @media screen and (max-width: 480px) {
     width: 5rem;
     height: 5rem;
-    object-fit:fill ;
   }
 `;
 

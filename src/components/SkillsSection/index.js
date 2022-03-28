@@ -21,8 +21,8 @@ const SkillsSection = ({ id, title, frontend, api, backend }) => {
         {frontend.map((item, index) => {
           return (
               <SkillWrapper key={index}>
-                <SkillImageContainer>
-                  <Image src={item.img} alt={item.alt} layout="cover" width="7.375rem" height="7.938rem" />
+                <SkillImageContainer width="8rem" height="8rem">
+                  <Image src={item.img} alt={item.alt} />
                 </SkillImageContainer>
                 <SkillbarContainer>
                   <Bar width={item.percentage} color={item.background} />
@@ -35,8 +35,8 @@ const SkillsSection = ({ id, title, frontend, api, backend }) => {
         {api.map((item, index) => {
           return (
               <SkillWrapper key={index}>
-                <SkillImageContainer>
-                  <Image src={item.img} alt={item.alt} layout="fill" width="17.5rem" height="5.5rem" />
+                <SkillImageContainer width="19.5rem" height="5.5rem" isApi>
+                  <img src={item.img} alt={item.alt} />
                 </SkillImageContainer>
               </SkillWrapper>
           );
@@ -46,8 +46,8 @@ const SkillsSection = ({ id, title, frontend, api, backend }) => {
         {backend.map((item, index) => {
           return (
               <SkillWrapper key={index}>
-                <SkillImageContainer>
-                  <Image src={item.img} alt={item.alt} layout="fill" width="7.375rem" height="7.938rem" />
+                <SkillImageContainer width="8rem" height="7.8rem" isBackend>
+                  <Image src={item.img} alt={item.alt} />
                 </SkillImageContainer>
                 <SkillbarContainer>
                   <Bar width={item.percentage} color={item.background} />
