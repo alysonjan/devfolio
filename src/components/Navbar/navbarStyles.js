@@ -60,11 +60,14 @@ export const NavLinks = styled(LinkScroll)`
     display:flex;
     align-items: center;
     text-decoration: none;
-    padding: 0 1rem;
+    padding: 4px 1rem 0 1rem;
     height: 100%;
     cursor: pointer;
+    border-bottom: 4px solid rgba(41, 151, 236, 0);
 
     &.active {
+        padding-bottom: 0px;
         border-bottom: 4px solid #2998EC;
+        transition: all 0.3s ease-in-out;
     }
 `;

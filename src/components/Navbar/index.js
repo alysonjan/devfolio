@@ -30,7 +30,6 @@ const Navbar = ({ toggle }) => {
     scroll.scrollToTop()
   };
   return (
-    <>
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
@@ -103,7 +102,6 @@ const Navbar = ({ toggle }) => {
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>
-    </>
   );
 };
 
