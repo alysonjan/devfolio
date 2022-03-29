@@ -25,6 +25,9 @@ export const ProjectsContainer = styled.div`
   @media screen and (max-width: 480px) {
     height: 150vh;
   }
+  @media screen and (min-width: 320px) {
+    height: 190vh;
+  }
 
 `;
 

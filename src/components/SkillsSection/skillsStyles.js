@@ -19,9 +19,11 @@ export const SkillsContainer = styled.div`
   }
 
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 320px) {
     height: 115vh;
   }
+
+
 
 `;
 
