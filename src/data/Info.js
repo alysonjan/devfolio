@@ -93,11 +93,11 @@ export const ProjectInfo = {
       description: "Developed a mobile application for a community that can send complaints and see the latest announcement on the community.",
       stack: ["ANDROID STUDIO", "FIREBASE"]
     },
-    // {
-    //   title: "Election Analytics",
-    //   description: "Lorem Ipsum is simply dummy text of the printing and typesetting  industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    //   stack: ["APOLLO", "GRAPHQL", "NODE JS", "mongoDB"]
-    // },
+    {
+      title: "Election Analytics",
+      description: "Ebisu is an engagement analytics app, it allows the users which at the moment some politicians to monitor voters engagement. in that way they will know which area they have strong number of supporters and which area they need to focus on campaining to gain more supporters.",
+      stack: ["APOLLO", "GRAPHQL", "NODE JS", "mongoDB"]
+    },
   ]
 };
 
