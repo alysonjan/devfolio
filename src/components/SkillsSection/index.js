@@ -1,9 +1,9 @@
 import React from 'react'
 import { Line, Title, TitleContainer } from '../shared/SharedStyles'
 import {
-  Bar,
+  // Bar,
   Image,
-  SkillbarContainer,
+  // SkillbarContainer,
   SkillImageContainer,
   SkillsContainer,
   SkillsWrapper,
