@@ -14,7 +14,7 @@ export const AboutInfo = {
   title: "ABOUT ME",
   img: require("../images/aboutImage.png"),
   alt: 'aboutme',
-  description: `I'm a Backend Developer with almost 3 years of experience. I have a diverse set of skills ranging from front-end to back-end development. I love learning new technologies that can improve my set of skills and knowledge. Solving bugs bring out the best of my curiosity about Web development. I got my Bachelor degree in Information Technology at Southwestern University-PHINMA, Philippines. Below is a quick overview of my main  technical skill sets and technologies I use.`,
+  description: `Experienced Software Developer with 2 years in the field and a total of 4 years focused on web development. Skilled in creating and managing software systems, proficient in various platforms and languages. Familiar with modern tools and procedures, excelling in both independent and collaborative projects.`,
 };
 
 export const SkillsInfo = {
