@@ -62,15 +62,31 @@ export const SkillsInfo = {
       background: "#E10198",
     },
     {
+      img: require("../images/php.png"),
+      percentage: "60%",
+      background: "#3465A4"
+    },
+    {
+      img: require("../images/laravel.png"),
+      percentage: "50%",
+      background: "#3465A4"
+    },
+    {
+      img: require("../images/nestjs.png"),
+      percentage: "40%",
+      background: "#3465A4"
+    },
+    {
       img: require("../images/mongo.png"),
       percentage: "60%",
       background: "#509747"
     },
+    
     {
       img: require("../images/mysql.png"),
       percentage: "60%",
       background: "#3465A4"
-    },
+    }
   ]
 }
 
