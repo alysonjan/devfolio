@@ -124,16 +124,6 @@ export const ContactInfo = {
   emailLogo: require("../images/email.png"),
   socials: [
     {
-      img: require("../images/twitter.png"),
-      alt: "twitter",
-      link: "https://twitter.com/aly_urriza"
-    },
-    {
-      img: require("../images/instagram.png"),
-      alt: "instagram",
-      link: "https://www.instagram.com/ajaxxalyson"
-    },
-    {
       img: require("../images/github.png"),
       alt: "github",
       link: "https://github.com/alysonjan"
