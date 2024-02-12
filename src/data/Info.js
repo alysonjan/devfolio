@@ -5,7 +5,7 @@ export const HeroInfo = {
   img: require("../images/alyson.png"),
   alt: "mypic",
   description:
-    "I am passionate about Web development to create a positive impact in the world. I aspire to become a great Software Engineer.",
+    "An enthusiastic Web Developer who is using the most modern technologies to make a positive impact on society. Committed to making valuable contributions and finding creative solutions to advance all business sectors.",
   buttonLabel: "RESUME",
 };
 
