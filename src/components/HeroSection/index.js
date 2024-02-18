@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineDownload } from "react-icons/ai";
-import myResume from "../../data/myresumev3.pdf";
+import myResume from "../../data/AlysonUrrizaResume.pdf";
 import {
   ButtonContainer,
   Description,
