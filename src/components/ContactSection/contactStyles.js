@@ -3,12 +3,12 @@ import styled from "styled-components";
 export const ContactContainer = styled.div`
   width: 100%;
   height: 100vh;
-  background-color: #222733;
-  
+  // background-color: #222733;
+  background: linear-gradient(to bottom, #0b1c2c, #2c3245, #1a1f33);
+
   @media screen and (max-width: 480px) {
     height: 80vh;
   }
-  
 `;
 
 export const MainContainer = styled.div`
@@ -44,7 +44,6 @@ export const EmailIcon = styled.img`
     height: 1.75rem;
     object-fit: cover;
   }
-
 `;
 export const Email = styled.div`
   font-size: 1.75rem;
@@ -63,7 +62,6 @@ export const IconsContainer = styled.div`
   @media screen and (max-width: 480px) {
     margin: 1rem;
   }
-
 `;
 export const Icons = styled.img`
   width: 4rem;

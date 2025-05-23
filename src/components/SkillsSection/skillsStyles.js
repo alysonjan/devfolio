@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const SkillsContainer = styled.div`
   width: 100%;
   height: 100vh;
-  background-color: #222733;
-
+  // background-color: #222733;
+  background: linear-gradient(to bottom, #0b1c2c, #2c3245, #1a1f33);
 
   @media screen and (max-width: 1364px) {
     height: 150vh;
@@ -13,18 +13,15 @@ export const SkillsContainer = styled.div`
   @media screen and (max-width: 1024px) {
     height: 140vh;
   }
-  
-  @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px)  {
+
+  @media screen and (max-width: 900px) and (min-width: 600px),
+    (min-width: 1100px) {
     height: 160vh;
   }
-
 
   @media screen and (max-width: 320px) {
     height: 115vh;
   }
-
-
-
 `;
 
 export const SkillsWrapper = styled.div`
@@ -37,7 +34,6 @@ export const SkillsWrapper = styled.div`
   @media screen and (max-width: 1024px) {
     width: 80%;
   }
-
 `;
 
 export const SkillWrapper = styled.div`
@@ -54,7 +50,7 @@ export const SkillImageContainer = styled.div`
   overflow: visible !important;
 
   @media screen and (max-width: 768px) {
-    margin: 0.80rem;
+    margin: 0.8rem;
   }
 
   img {

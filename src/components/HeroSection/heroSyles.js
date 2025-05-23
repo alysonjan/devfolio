@@ -3,14 +3,14 @@ import styled from "styled-components";
 export const HeroContainer = styled.div`
   width: 100%;
   height: 100vh;
-  background-color: #222733;
+  background: linear-gradient(to bottom, #0b1c2c, #2c3245, #1a1f33);
 
   @media screen and (max-width: 1024px) {
     height: 140vh;
   }
- 
 
-  @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px)  {
+  @media screen and (max-width: 900px) and (min-width: 600px),
+    (min-width: 1100px) {
     height: 160vh;
   }
 
@@ -22,7 +22,7 @@ export const HeroContainer = styled.div`
 export const HeroWrapper = styled.div`
   width: 100%;
   height: 14.75rem;
-  background-color: #2e3445;
+  // background-color: #2c3245;
   position: relative;
   top: 70px;
   border-bottom-left-radius: 180rem;
@@ -47,7 +47,6 @@ export const Name = styled.h3`
   @media screen and (max-width: 480px) {
     font-size: 2.5rem;
   }
-
 `;
 
 export const WorkContainer = styled.div`
@@ -58,8 +57,7 @@ export const WorkContainer = styled.div`
 
 export const WorkTitle = styled.div`
   font-size: 2rem;
-  color: #2998ec;
-
+  color: rgb(121, 193, 248);
 `;
 
 export const DescriptionContainer = styled.div`
@@ -86,7 +84,7 @@ export const Img = styled.img`
 export const Description = styled.div`
   width: 50%;
   margin: auto;
-  font-size: 1.50rem;
+  font-size: 1.5rem;
   text-align: center;
 
   @media screen and (max-width: 480px) {
@@ -97,7 +95,6 @@ export const Description = styled.div`
   @media screen and (max-width: 360px) {
     font-size: 1rem;
   }
-
 `;
 
 export const ButtonContainer = styled.div`
@@ -113,7 +110,9 @@ export const ButtonContainer = styled.div`
 `;
 
 export const ResumeButton = styled.div`
-  background: #2998ec;
+  // background: #2998ec;
+  background: linear-gradient(to right, #3b82f6, #2563eb);
+
   color: #ffff;
   padding: 8px 35px;
   border-radius: 8px;

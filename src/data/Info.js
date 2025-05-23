@@ -112,17 +112,29 @@ export const ProjectInfo = {
         "Developed a web application with two user interface employee and admin for a private salon that can record the service rendered and can automate employees commission and owner net sales.",
       stack: ["REACT", "EXPRESS", "NODE JS", "mongoDB"],
     },
+    // {
+    //   title: "Barangay Online Inquiry",
+    //   description:
+    //     "Developed a mobile application for a community that can send complaints and see the latest announcement on the community.",
+    //   stack: ["ANDROID STUDIO", "FIREBASE"],
+    // },
     {
-      title: "Barangay Online Inquiry",
+      title: "School Clinic System",
       description:
-        "Developed a mobile application for a community that can send complaints and see the latest announcement on the community.",
-      stack: ["ANDROID STUDIO", "FIREBASE"],
+        "Developed a web-based clinic management system for schools where students can view their medical history, request medical or physical examination certificates, and more. The system includes an admin panel that functions as a CRM for clinic staff to manage consultations, patient records, and clinic activities.",
+      stack: ["NEXT.JS", "NODE.JS", "MYSQL"],
     },
+    // {
+    //   title: "Election Analytics",
+    //   description:
+    //     "Ebisu is an engagement analytics app, it allows the users which at the moment some politicians to monitor voters engagement. in that way they will know which area they have strong number of supporters and which area they need to focus on campaining to gain more supporters.",
+    //   stack: ["APOLLO", "GRAPHQL", "NODE JS", "mongoDB"],
+    // },
     {
-      title: "Election Analytics",
+      title: "Blood Donation & Request System",
       description:
-        "Ebisu is an engagement analytics app, it allows the users which at the moment some politicians to monitor voters engagement. in that way they will know which area they have strong number of supporters and which area they need to focus on campaining to gain more supporters.",
-      stack: ["APOLLO", "GRAPHQL", "NODE JS", "mongoDB"],
+        "Developed a web app for users to donate and request blood, with automatic matching and notifications. Includes an admin panel to manage requests, donors, and partner organizations.",
+      stack: ["REACT / VITE.JS", "Express", "NODE.JS", "MYSQL"],
     },
   ],
 };
