@@ -14,10 +14,13 @@ export const AboutInfo = {
   title: "ABOUT ME",
   img: require("../images/aboutImage.png"),
   alt: "aboutme",
-  description: `Experienced Software Developer with nearly 3 years in the field and a total of almost 5
-                years focused on web development. Skilled in creating and managing software systems,
-                proficient in various platforms and languages. Familiar with modern tools and
-                procedures, excelling in both independent and collaborative projects.`,
+  description: `Experienced Software Developer with 3 years in the field and nearly 5 years of hands-on web
+                development experience. Proficient in building and maintaining software systems across various
+                platforms and programming languages.Strong foundation in software development principles, coupled
+                with a deep understanding of modern tools, workflows, and best practices. Skilled in both independent
+                and team-based environments. Adept at leveraging generative AI to enhance productivity and innovation
+                in daily workflows, aligning with the latest technological trends while grounded in core development
+                fundamentals.`,
 };
 
 export const SkillsInfo = {
