@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TitleContainer = styled.div`
   display: flex;
-  flex-direction:column ;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
@@ -13,7 +13,6 @@ export const Title = styled.div`
   @media screen and (max-width: 768px) {
     font-size: 2rem;
   }
-
 `;
 
 export const Line = styled.hr`

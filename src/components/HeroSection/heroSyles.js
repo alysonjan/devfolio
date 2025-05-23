@@ -2,27 +2,26 @@ import styled from "styled-components";
 
 export const HeroContainer = styled.div`
   width: 100%;
-  height: 100vh;
+  height: auto;
   background: linear-gradient(to bottom, #0b1c2c, #2c3245, #1a1f33);
 
-  @media screen and (max-width: 1024px) {
-    height: 140vh;
-  }
+  // @media screen and (max-width: 1024px) {
+  //   height: 140vh;
+  // }
 
-  @media screen and (max-width: 900px) and (min-width: 600px),
-    (min-width: 1100px) {
-    height: 160vh;
-  }
+  // @media screen and (max-width: 900px) and (min-width: 600px),
+  //   (min-width: 1100px) {
+  //   height: 160vh;
+  // }
 
-  @media screen and (max-width: 768px) {
-    height: 110vh;
-  }
+  // @media screen and (max-width: 768px) {
+  //   height: 110vh;
+  // }
 `;
 
 export const HeroWrapper = styled.div`
   width: 100%;
   height: 14.75rem;
-  // background-color: #2c3245;
   position: relative;
   top: 70px;
   border-bottom-left-radius: 180rem;
@@ -101,7 +100,7 @@ export const ButtonContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1.5rem;
+  padding: 3rem;
   cursor: pointer;
 
   a {
@@ -110,9 +109,7 @@ export const ButtonContainer = styled.div`
 `;
 
 export const ResumeButton = styled.div`
-  // background: #2998ec;
   background: linear-gradient(to right, #3b82f6, #2563eb);
-
   color: #ffff;
   padding: 8px 35px;
   border-radius: 8px;

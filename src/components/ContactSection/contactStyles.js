@@ -2,22 +2,19 @@ import styled from "styled-components";
 
 export const ContactContainer = styled.div`
   width: 100%;
-  height: 100vh;
-  // background-color: #222733;
+  height: auto;
   background: linear-gradient(to bottom, #0b1c2c, #2c3245, #1a1f33);
-
-  @media screen and (max-width: 480px) {
-    height: 80vh;
-  }
+  padding: 5rem 0;
 `;
 
 export const MainContainer = styled.div`
   width: 60%;
-  margin: 6rem auto;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 2rem;
 `;
 
 export const EmailContainer = styled.div`

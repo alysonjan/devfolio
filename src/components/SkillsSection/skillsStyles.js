@@ -1,32 +1,45 @@
 import styled from "styled-components";
 
+// export const SkillsContainer = styled.div`
+//   width: 100%;
+//   height: 100vh;
+//   // background-color: #222733;
+//   background: linear-gradient(to bottom, #0b1c2c, #2c3245, #1a1f33);
+
+//   @media screen and (max-width: 1364px) {
+//     height: 150vh;
+//   }
+
+//   @media screen and (max-width: 1024px) {
+//     height: 140vh;
+//   }
+
+//   @media screen and (max-width: 900px) and (min-width: 600px),
+//     (min-width: 1100px) {
+//     height: 160vh;
+//   }
+
+//   @media screen and (max-width: 320px) {
+//     height: 115vh;
+//   }
+// `;
+
 export const SkillsContainer = styled.div`
   width: 100%;
-  height: 100vh;
-  // background-color: #222733;
   background: linear-gradient(to bottom, #0b1c2c, #2c3245, #1a1f33);
+  padding: 5rem 0;
+  // margin-top: 5rem;
+  // margin-bottom: 5rem;
 
-  @media screen and (max-width: 1364px) {
-    height: 150vh;
-  }
-
-  @media screen and (max-width: 1024px) {
-    height: 140vh;
-  }
-
-  @media screen and (max-width: 900px) and (min-width: 600px),
-    (min-width: 1100px) {
-    height: 160vh;
-  }
-
-  @media screen and (max-width: 320px) {
-    height: 115vh;
-  }
+  // @media screen and (max-width: 768px) {
+  //   margin-top: 3rem;
+  //   margin-bottom: 3rem;
+  // }
 `;
 
 export const SkillsWrapper = styled.div`
   width: 50%;
-  margin: 2rem auto;
+  margin: auto;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -41,6 +54,7 @@ export const SkillWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 2rem;
 `;
 
 export const SkillImageContainer = styled.div`

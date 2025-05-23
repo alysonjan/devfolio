@@ -1,41 +1,55 @@
 import styled from "styled-components";
 
+// export const ProjectsContainer = styled.div`
+//   width: 100%;
+//   height: 100vh;
+//   // background-color: #222733;
+//   background: linear-gradient(to bottom, #0b1c2c, #2c3245, #1a1f33);
+
+//   @media screen and (max-width: 1364px) {
+//     height: 180vh;
+//   }
+
+//   @media screen and (max-width: 1024px) {
+//     height: 180vh;
+//   }
+
+//   @media screen and (max-width: 900px) and (min-width: 600px),
+//     (min-width: 1100px) {
+//     height: 160vh;
+//   }
+
+//   @media screen and (max-width: 768px) {
+//     height: 100vh;
+//   }
+//   @media screen and (max-width: 480px) {
+//     height: 150vh;
+//   }
+//   @media screen and (min-width: 320px) {
+//     height: 190vh;
+//   }
+// `;
+
 export const ProjectsContainer = styled.div`
   width: 100%;
-  height: 100vh;
-  // background-color: #222733;
   background: linear-gradient(to bottom, #0b1c2c, #2c3245, #1a1f33);
+  padding: 5rem 0;
+  // margin-top: 5rem;
+  // margin-bottom: 5rem;
 
-  @media screen and (max-width: 1364px) {
-    height: 180vh;
-  }
-
-  @media screen and (max-width: 1024px) {
-    height: 180vh;
-  }
-
-  @media screen and (max-width: 900px) and (min-width: 600px),
-    (min-width: 1100px) {
-    height: 160vh;
-  }
-
-  @media screen and (max-width: 768px) {
-    height: 100vh;
-  }
-  @media screen and (max-width: 480px) {
-    height: 150vh;
-  }
-  @media screen and (min-width: 320px) {
-    height: 190vh;
-  }
+  // @media screen and (max-width: 768px) {
+  //   margin-top: 3rem;
+  //   margin-bottom: 3rem;
+  // }
 `;
 
 export const ProjectContainer = styled.div`
   width: 80%;
-  margin: 2rem auto;
+  margin: auto;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding-top: 2rem;
 `;
 
 export const ProjectWrapper = styled.div`

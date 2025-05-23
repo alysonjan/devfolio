@@ -1,5 +1,5 @@
-import React from 'react'
-import { Line, Title, TitleContainer } from '../shared/SharedStyles'
+import React from "react";
+import { Line, Title, TitleContainer } from "../shared/SharedStyles";
 import {
   // Bar,
   Image,
@@ -8,7 +8,7 @@ import {
   SkillsContainer,
   SkillsWrapper,
   SkillWrapper,
-} from './skillsStyles'
+} from "./skillsStyles";
 
 const SkillsSection = ({ id, title, frontend, api, backend }) => {
   return (
@@ -28,7 +28,7 @@ const SkillsSection = ({ id, title, frontend, api, backend }) => {
                   <Bar width={item.percentage} color={item.background} />
                 </SkillbarContainer> */}
             </SkillWrapper>
-          )
+          );
         })}
       </SkillsWrapper>
       <SkillsWrapper>
@@ -39,7 +39,7 @@ const SkillsSection = ({ id, title, frontend, api, backend }) => {
                 <img src={item.img} alt={item.alt} />
               </SkillImageContainer>
             </SkillWrapper>
-          )
+          );
         })}
       </SkillsWrapper>
       <SkillsWrapper>
@@ -53,11 +53,11 @@ const SkillsSection = ({ id, title, frontend, api, backend }) => {
                   <Bar width={item.percentage} color={item.background} />
                 </SkillbarContainer> */}
             </SkillWrapper>
-          )
+          );
         })}
       </SkillsWrapper>
     </SkillsContainer>
-  )
-}
+  );
+};
 
-export default SkillsSection
+export default SkillsSection;
