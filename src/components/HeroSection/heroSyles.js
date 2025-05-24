@@ -3,20 +3,7 @@ import styled from "styled-components";
 export const HeroContainer = styled.div`
   width: 100%;
   height: auto;
-  background: linear-gradient(to bottom, #0b1c2c, #2c3245, #1a1f33);
-
-  // @media screen and (max-width: 1024px) {
-  //   height: 140vh;
-  // }
-
-  // @media screen and (max-width: 900px) and (min-width: 600px),
-  //   (min-width: 1100px) {
-  //   height: 160vh;
-  // }
-
-  // @media screen and (max-width: 768px) {
-  //   height: 110vh;
-  // }
+  background: linear-gradient(to bottom, #03071e, #0b132b, #1c2541);
 `;
 
 export const HeroWrapper = styled.div`
@@ -56,7 +43,7 @@ export const WorkContainer = styled.div`
 
 export const WorkTitle = styled.div`
   font-size: 2rem;
-  color: rgb(121, 193, 248);
+  color: rgb(255, 255, 255);
 `;
 
 export const DescriptionContainer = styled.div`

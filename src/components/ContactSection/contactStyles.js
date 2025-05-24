@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContactContainer = styled.div`
   width: 100%;
   height: auto;
-  background: linear-gradient(to bottom, #0b1c2c, #2c3245, #1a1f33);
+  background: linear-gradient(to bottom, #03071e, #0b132b, #1c2541);
   padding: 5rem 0;
 `;
 

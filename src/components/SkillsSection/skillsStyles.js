@@ -1,40 +1,10 @@
 import styled from "styled-components";
 
-// export const SkillsContainer = styled.div`
-//   width: 100%;
-//   height: 100vh;
-//   // background-color: #222733;
-//   background: linear-gradient(to bottom, #0b1c2c, #2c3245, #1a1f33);
-
-//   @media screen and (max-width: 1364px) {
-//     height: 150vh;
-//   }
-
-//   @media screen and (max-width: 1024px) {
-//     height: 140vh;
-//   }
-
-//   @media screen and (max-width: 900px) and (min-width: 600px),
-//     (min-width: 1100px) {
-//     height: 160vh;
-//   }
-
-//   @media screen and (max-width: 320px) {
-//     height: 115vh;
-//   }
-// `;
-
 export const SkillsContainer = styled.div`
   width: 100%;
-  background: linear-gradient(to bottom, #0b1c2c, #2c3245, #1a1f33);
+  // background: linear-gradient(to bottom, #0b1c2c, #2c3245, #1a1f33);
+  background: linear-gradient(to bottom, #03071e, #0b132b, #1c2541);
   padding: 5rem 0;
-  // margin-top: 5rem;
-  // margin-bottom: 5rem;
-
-  // @media screen and (max-width: 768px) {
-  //   margin-top: 3rem;
-  //   margin-bottom: 3rem;
-  // }
 `;
 
 export const SkillsWrapper = styled.div`
@@ -92,6 +62,7 @@ export const Image = styled.img`
   width: ${({ width }) => width};
   height: ${({ height }) => height};
   object-fit: ${({ layout }) => layout};
+  pointer-events: none;
 
   @media screen and (max-width: 768px) {
     width: 7rem;

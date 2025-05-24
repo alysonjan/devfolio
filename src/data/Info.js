@@ -12,7 +12,7 @@ export const HeroInfo = {
 export const AboutInfo = {
   id: "about",
   title: "ABOUT ME",
-  img: require("../images/aboutImage.png"),
+  img: require("../images/me2.png"),
   alt: "aboutme",
   description: `Experienced Software Developer with 3 years in the field and nearly 5 years of hands-on web
                 development experience. Proficient in building and maintaining software systems across various
