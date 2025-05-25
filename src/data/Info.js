@@ -29,21 +29,25 @@ export const SkillsInfo = {
   frontend: [
     {
       img: require("../images/html.png"),
+      alt: "HTML",
       percentage: "60%",
       background: "#E44D26",
     },
     {
       img: require("../images/css.png"),
+      alt: "CSS",
       percentage: "60%",
       background: "#2062AF",
     },
     {
       img: require("../images/js.png"),
+      alt: "JavaScript",
       percentage: "80%",
       background: "#F0DB4F",
     },
     {
       img: require("../images/react.png"),
+      alt: "React",
       percentage: "60%",
       background: "#05A5D1",
     },
@@ -51,45 +55,53 @@ export const SkillsInfo = {
   api: [
     {
       img: require("../images/axios.png"),
+      alt: "Axios",
     },
     {
       img: require("../images/x.png"),
+      alt: "X API",
     },
   ],
   backend: [
     {
       img: require("../images/node.png"),
+      alt: "Node.js",
       percentage: "90%",
       background: "#80BD01",
     },
     {
       img: require("../images/graphql.png"),
+      alt: "GraphQL",
       percentage: "70%",
       background: "#E10198",
     },
     {
       img: require("../images/php.png"),
+      alt: "PHP",
       percentage: "60%",
       background: "#3465A4",
     },
     {
       img: require("../images/laravel.png"),
+      alt: "Laravel",
       percentage: "50%",
       background: "#3465A4",
     },
     {
       img: require("../images/nestjs.png"),
+      alt: "NestJS",
       percentage: "40%",
       background: "#3465A4",
     },
     {
       img: require("../images/mongo.png"),
+      alt: "MongoDB",
       percentage: "60%",
       background: "#509747",
     },
-
     {
       img: require("../images/mysql.png"),
+      alt: "MySQL",
       percentage: "60%",
       background: "#3465A4",
     },
