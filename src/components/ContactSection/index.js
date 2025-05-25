@@ -11,7 +11,7 @@ import {
 } from "./contactStyles";
 import { Line, Title, TitleContainer } from "../shared/SharedStyles";
 
-const ContactSection = ({ id, title, email, emailLogo, socials }) => {
+const ContactSection = ({ id, title, email, emailLogo, alt, socials }) => {
   return (
     <ContactContainer id={id}>
       <TitleContainer>
@@ -20,7 +20,7 @@ const ContactSection = ({ id, title, email, emailLogo, socials }) => {
       </TitleContainer>
       <MainContainer>
         <EmailContainer>
-          <EmailIcon src={emailLogo} />
+          <EmailIcon src={emailLogo} alt={alt} />
           <Email>{email}</Email>
         </EmailContainer>
         <SocialContainer>

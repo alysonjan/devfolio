@@ -156,6 +156,7 @@ export const ContactInfo = {
   title: "GET IN TOUCH",
   email: "alysonjan@gmail.com",
   emailLogo: require("../images/email.png"),
+  alt: "email",
   socials: [
     {
       img: require("../images/github.png"),
