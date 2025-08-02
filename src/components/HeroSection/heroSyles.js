@@ -58,12 +58,12 @@ export const Imagewrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 4rem 0rem 1rem;
+  margin: 1.5rem 0rem 1rem;
 `;
 
 export const Img = styled.img`
-  width: 12.5rem;
-  height: 12.5rem;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
 `;
 

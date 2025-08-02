@@ -2,7 +2,8 @@ export const HeroInfo = {
   id: "home",
   name: "Alyson Jan Urriza",
   work: "Web Developer",
-  img: require("../images/alyson.png"),
+  // img: require("../images/alyson.png"),
+  img: require("../images/ako2.png"),
   alt: "mypic",
   description:
     "An enthusiastic Web Developer who is using the most modern technologies to make a positive impact on society. Committed to making valuable contributions and finding creative solutions to advance all business sectors.",
