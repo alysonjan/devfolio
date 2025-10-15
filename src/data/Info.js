@@ -6,7 +6,7 @@ export const HeroInfo = {
   img: require("../images/ako2.png"),
   alt: "mypic",
   description:
-    "An enthusiastic Web Developer who is using the most modern technologies to make a positive impact on society. Committed to making valuable contributions and finding creative solutions to advance all business sectors.",
+    "An enthusiastic Software Developer who is using the most modern technologies to make a positive impact on society. Committed to making valuable contributions and finding creative solutions to advance all business sectors.",
   buttonLabel: "RESUME",
 };
 
