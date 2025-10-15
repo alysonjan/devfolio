@@ -1,7 +1,7 @@
 export const HeroInfo = {
   id: "home",
   name: "Alyson Jan Urriza",
-  work: "Web Developer",
+  work: "Software Developer",
   // img: require("../images/alyson.png"),
   img: require("../images/ako2.png"),
   alt: "mypic",
